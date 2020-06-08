@@ -29,7 +29,7 @@ const AlgorithmSelector = ({ active, select }) => {
           return <div
             key={k}
             className={`
-              w-40 border font-mono m-1 cursor-pointer
+              w-40 border hover:border-blue-500 hover:text-blue-500 font-mono m-1 cursor-pointer
               ${k === active
                 ? 'border-blue-500 text-blue-500'
                 : 'border-black'}

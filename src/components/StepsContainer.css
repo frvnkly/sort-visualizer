@@ -1,0 +1,16 @@
+@keyframes reveal {
+  from { transform: translateY(0) }
+  to { transform: translateY(100%) }
+}
+
+.screen {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  animation-name: reveal;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
